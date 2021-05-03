@@ -17,5 +17,11 @@ namespace CoffeeShop
             InitializeComponent();
         }
 
+        private void Order_Click(object sender, EventArgs e)
+        {
+            String customerName = textBox1.Text;
+            int coffeeSelected = Convert.ToInt32(numCoffee.Value);
+            int donutsSelected = Convert.ToInt32(numDonut.Value);
+        }
     }
 }

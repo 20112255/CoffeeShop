@@ -98,6 +98,7 @@ namespace CoffeeShop
             this.Order.TabIndex = 6;
             this.Order.Text = "Order";
             this.Order.UseVisualStyleBackColor = true;
+            this.Order.Click += new System.EventHandler(this.Order_Click);
             // 
             // Form1
             // 
