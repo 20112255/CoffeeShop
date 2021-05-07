@@ -54,7 +54,7 @@ namespace CoffeeShop
             this.lblMain.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMain.Location = new System.Drawing.Point(234, 66);
             this.lblMain.Name = "lblMain";
-            this.lblMain.Size = new System.Drawing.Size(213, 46);
+            this.lblMain.Size = new System.Drawing.Size(211, 45);
             this.lblMain.TabIndex = 1;
             this.lblMain.Text = "Coffee Shop";
             // 
@@ -114,6 +114,7 @@ namespace CoffeeShop
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numCoffee)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDonut)).EndInit();
             this.ResumeLayout(false);

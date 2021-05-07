@@ -25,6 +25,15 @@ namespace CoffeeShop
             int donutsSelected = Convert.ToInt32(numDonut.Value);
 
             orderOBJ o = new orderOBJ(customerName,coffeeSelected,donutsSelected);
+
+            ProcessOrder p = new ProcessOrder();
+
+            p.ProcessTheOrder(o);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
